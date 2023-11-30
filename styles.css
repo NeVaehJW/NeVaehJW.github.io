@@ -1,18 +1,30 @@
 body {
-  background-color:cornflowerblue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-h1 {
-  color:black;
-  text-align: center;
-}
-.assign {
-  margin: 10px;
-  padding: 10px;
-  background-color:chocolate;
-  display: flex;
-}
-.assign img {
-  width: 200px;
-  padding: 10px;
-}
+    background-color:cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h1 {
+    color:black;
+    text-align: center;
+  }
+  .assign {
+    margin: 10px;
+    padding: 10px;
+    background-color:chocolate;
+    display: flex;
+    border-radius: 15px;
+  }
+  .assign img {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 4px dashed #92DB3D
+  }
+
+  a {
+    text-decoration:none;
+  }
+
+  a:hover {
+    color: #fff;
+
+  }
